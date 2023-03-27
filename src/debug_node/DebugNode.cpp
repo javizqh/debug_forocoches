@@ -16,7 +16,7 @@
  * @author Javier Izquierdo Hernandez (j.izquierdoh.2021@alumnos.urjc.es)
  * @brief Node implementation for debugging purposes for the kobuki
  * @note Uses leds, sound and terminal functions for debugging
- * @version 1.0
+ * @version 2.1
  * @date 2023-02-17
  * @copyright Copyright (c) 2023
  */
