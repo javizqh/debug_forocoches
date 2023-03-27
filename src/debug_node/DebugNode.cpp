@@ -16,7 +16,7 @@
  * @author Javier Izquierdo Hernandez (j.izquierdoh.2021@alumnos.urjc.es)
  * @brief Node implementation for debugging purposes for the kobuki
  * @note Uses leds, sound and terminal functions for debugging
- * @version 1.0
+ * @version 2.1
  * @date 2023-02-17
  * @copyright Copyright (c) 2023
  */
@@ -73,7 +73,7 @@ void DebugNode::control_cycle()
     case PERSON_FOUND:
       set_led1_value(LED_OFF);
       set_led2_value(LED_GREEN, FLASHING);
-      set_sound(SOUND_CLEANINGSTART);
+      set_sound(SOUND_BUTTON);
       RCLCPP_DEBUG(get_logger(), "PERSON_FOUND");
       break;
     case OK:
